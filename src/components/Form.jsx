@@ -13,7 +13,7 @@ import Modal from 'react-modal';
 
 const useStyles = createUseStyles({
   container: {
-    padding: 100,
+    padding: 50,
     backgroundImage: 'url("/static/Leafcut.svg")',
     backgroundPosition: 'right center',
     backgroundRepeat: 'no-repeat',
@@ -21,10 +21,10 @@ const useStyles = createUseStyles({
     position: 'relative',
   },
   leftContainer: {
-    padding: 40
+    padding: 20
   },
   rightContainer: {
-    padding: 40,
+    padding: 20,
     backgroundColor: 'rgba(0,0,0,0.4)'
   }
 })
@@ -48,9 +48,7 @@ const Description = () => {
         <Row>
           <Col md={6} className={style.leftContainer}>
             <div style={{
-              padding: '70px 0',
-              width: '90%',
-              margin: 'auto'
+              padding: '70px 0'
             }}>
               <p className={globalStyle.paragraph}>Tampakan is part of each one of us. </p>
               <p className={globalStyle.paragraph}>Altogether, we stand up for Tampakan, for Mindanao, and our homeland.</p>
