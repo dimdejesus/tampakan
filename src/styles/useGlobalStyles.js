@@ -7,7 +7,7 @@ export default createUseStyles({
     overflowX: 'hidden'
   },
   paragraph: {
-    fontSize: 18,
+    fontSize: 20,
     fontWeight: 500
   },
   footer: {

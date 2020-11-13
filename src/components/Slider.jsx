@@ -11,7 +11,8 @@ export default function BasicSlider() {
       orientation="horizontal"
       initialSlide={1}
       style={{
-        color: '#FFF'
+        color: '#FFF',
+        zIndex: 0
       }}
       settings={{
         slidingDuration: 250,
