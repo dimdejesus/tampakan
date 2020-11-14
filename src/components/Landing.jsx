@@ -58,7 +58,7 @@ const Landing = ({ error, loading, value, countUp }) => {
           {error && <Typography className={style.counterText}>Count error!</Typography>}
           {loading && <Typography className={style.counterText}>Counting...</Typography>}
           {value && <Typography className={style.counterText}>{countUp}</Typography>}
-          <Typography variant="subtitle1">have signed for <b>Ecological justice</b> and <b>integrity</b>!</Typography>
+          <Typography variant="subtitle1">have signed for <b>ecological justice</b> and <b>integrity</b>!</Typography>
         </div>
       </div>
     </>
