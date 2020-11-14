@@ -1,6 +1,6 @@
-import { createUseStyles } from 'react-jss'
+import { makeStyles } from '@material-ui/core/styles';
 
-export default createUseStyles({
+export default makeStyles({
   container: {
     backgroundColor: '#D0FCF4',
     fontFamily: 'Montserrat',
@@ -11,7 +11,6 @@ export default createUseStyles({
     fontWeight: 500
   },
   footer: {
-    marginTop: 100,
     width: '100%',
     padding: '2vw',
     textAlign: 'center',
