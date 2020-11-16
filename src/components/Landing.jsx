@@ -50,6 +50,9 @@ const Landing = ({ error, loading, value, countUp }) => {
     <>
       <div className={style.container}>
         <div className={style.headerContainer}>
+          <center>
+            <img src="/static/partners.png" alt="Tampakan Partners" style={{ width: 'clamp(200px, 20vw, 20vw)' }} />
+          </center>
           <div className={style.clouds}>
             <div className={style.logo} />
           </div>
