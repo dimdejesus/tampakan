@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { withStyles, makeStyles } from '@material-ui/core/styles';
+import { withStyles, makeStyles, useTheme } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 
 import firebase from '../utils/firebase';
@@ -74,6 +74,7 @@ const TextField = withStyles({
 
 const Description = ({ update, value }) => {
   const style = useStyles();
+  const theme = useTheme();
 
   const [firstName, setFirstName] = React.useState('');
   const [lastName, setLastName] = React.useState('');
@@ -153,7 +154,7 @@ const Description = ({ update, value }) => {
         <Grid item md={6} className={style.leftContainer}>
           <Typography variant="body1">Tampakan is part of each one of us. </Typography>
           <Typography variant="body1">Altogether, we stand up for Tampakan, for Mindanao, and our homeland.</Typography>
-          <Typography variant="body1">We must take heed to be heard!</Typography>
+          <Typography variant="body1" style={{ marginBottom: theme.spacing(4) }}>We must take heed to be heard!</Typography>
           <Typography variant="h5"><b>Sign the petition!</b></Typography>
         </Grid>
         <Grid item md={6} className={style.rightContainer}>
