@@ -33,8 +33,8 @@ function App() {
     <div className={style.container}>
       <Landing value={value} loading={loading} error={error} countUp={countUp} />
       <Form update={update} value={value} />
-      <Slider />
       <Description />
+      <Slider />
       <Footer />
       <div className={style.footer}>
         Copyright 2020 SAMAHAN Central Board | Developed by SAMAHAN Creative Team and SAMAHAN System Development<br/>
