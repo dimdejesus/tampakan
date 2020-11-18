@@ -31,7 +31,7 @@ const useStyles = makeStyles(theme => ({
     },
 }));
 
-export default function BasicSlider({ children, image, imageLink }) {
+export default function BasicSlider({ children, image }) {
     const theme = useTheme();
     const classes = useStyles();
 
@@ -63,7 +63,6 @@ export default function BasicSlider({ children, image, imageLink }) {
                 }}
                 onMouseEnter={onHover}
                 onMouseLeave={onLeave}
-                onClick={() => window.open(imageLink)}
                 variant="outlined"
             >
                 <animated.div
